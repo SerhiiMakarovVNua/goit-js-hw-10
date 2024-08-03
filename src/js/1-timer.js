@@ -32,7 +32,7 @@ const options = {
       titleColor: '#fff',
       messageColor: '#fff',
       color: '#ef4040',
-      iconUrl: '../img/bi_x-octagon.png',
+      iconUrl: './img/bi_x-octagon.png',
     });
     buttonEl.disabled = true;
     } else {
