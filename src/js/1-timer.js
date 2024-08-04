@@ -32,7 +32,7 @@ const options = {
       titleColor: '#fff',
       messageColor: '#fff',
       color: '#ef4040',
-      iconUrl: './img/bi_x-octagon.png',
+      iconUrl: '/img/bi_x-octagon.png',
     });
     buttonEl.disabled = true;
     } else {
@@ -99,6 +99,11 @@ body {
   height: 40px;
   padding-left: 16px;
   margin-bottom: 32px;
+  outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#datetime-picker:focus {
+  border-color: #6c8cff;
 }
 [data-start] {
   border-radius: 8px;
