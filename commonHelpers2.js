@@ -24,7 +24,7 @@ input[name="delay"] {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 input[name="delay"]:focus {
-    border-color: #6c8cff 
+    border-color: #6c8cff; 
 }
 fieldset {
     width: 360px;
@@ -58,6 +58,6 @@ button {
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 button:hover {
-  background: #6c8cff;
+    background: #6c8cff;
 }`;n.appendChild(document.createTextNode(l));document.head.appendChild(n);
 //# sourceMappingURL=commonHelpers2.js.map
